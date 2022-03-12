@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Topic
 
 from learning_logs.models import Topic
 
