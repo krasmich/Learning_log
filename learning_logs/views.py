@@ -5,7 +5,6 @@ from .models import Topic, Entry
 from .forms import TopicForm, EntryForm
 
 
-
 def index(request):
     """Домашняя страница приложения Learning Log"""
     return render(request, 'learning_logs/index.html')
